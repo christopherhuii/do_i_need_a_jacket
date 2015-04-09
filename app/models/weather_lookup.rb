@@ -9,8 +9,6 @@ class WeatherLookup
   end
 
   def fetch_weather(zip)
-    p zip
-
     HTTParty.get("http://api.wunderground.com/api/" + ENV['WEATHER_API_KEY'] + "/geolookup/conditions/q/#{zip}.json")
   end
 

@@ -10,13 +10,5 @@
       <%= submit_tag "show me the weather", class: "btn btn-primary button" %>
     <% end %>
   </div>
-
-  <div class="col-md-6 col-md-offset-3">
-    <div class="panel panel-body">
-      <h3>Temperature: <%= @weather_lookup.temperature %>&#8457;</h3>
-      <h3>Conditions: <%= @weather_lookup.weather_condition %></h3>
-      <h3>Location: <%= @weather_lookup.city %>, <%= @weather_lookup.state %></h3>
-    </div>
-  </div>
 </div>
 
