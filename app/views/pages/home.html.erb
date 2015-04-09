@@ -1,0 +1,10 @@
+<h1>Pages#Home</h1>
+
+
+<%= form_tag(root_path, method: "get") do %>
+  <%= label_tag :zip, "ENTER YOUR ZIPCODE TO FIND YOUR WEATHER"  %><br>
+  <%= text_field_tag :zip,'', placeholder: "e.g. 91765 " %>
+  <%= submit_tag "show me the weather" %>
+<% end %>
+
+<h3>It is currently <%= @weather_lookup.temperature %> degrees and is <%= @weather_lookup.weather_condition %> in <%= @weather_lookup.city %>, <%= @weather_lookup.state %></h3>
