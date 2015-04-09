@@ -10,6 +10,17 @@
       <%= submit_tag "show me the weather", class: "btn btn-primary button" %>
     <% end %>
   </div>
+  <div class="col-md-12">
+    <div class="jumbotron">
+      <% if @weather_lookup.temperature >= 75 %>
+        <h1><%= ["do you want to get a heatstroke?", "NO", "NO.", "you should be taking off clothes.."].sample %></h1>
+      <% elsif @weather_lookup.temperature >= 63 %>
+        <h1><%= ["Maybe", "light jacket, perhaps?"].sample %></h1>
+      <% else %>
+        <h1><%= ["YES", "you better...", "YES.", "not if you're trying to get sick", "not if you want nipple blades"].sample %></h1>
+      <% end %>
+    </div>
+  </div>
 
   <div class="col-md-6 col-md-offset-3">
     <div class="panel panel-body">
