@@ -16,5 +16,8 @@
 !/log/.keep
 /tmp
 
-#Ignore env file
+# Ignore env file
 .env
+
+# Ignore Images
+/app/assets/images/*.png
