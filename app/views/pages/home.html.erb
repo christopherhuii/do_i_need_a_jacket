@@ -21,11 +21,11 @@
     <div class="col-md-12">
       <div class="jumbotron">
         <% if @weather_lookup.temperature >= 75 %>
-          <h1><%= ["do you want to get a heatstroke?", "NO", "NO.", "you should be taking off clothes..", "suns out, guns out"].sample %></h1>
+          <h1><%= ["do you want to get a heatstroke?", "NO", "NO.", "you should be taking off clothes..", "suns out, guns out", "you should be wearing a tank top", "fewer the clothes, the better", "it's beautiful out!", "this is tanning weather!", "this is not sweater weather", "tank top will do"].sample %></h1>
         <% elsif @weather_lookup.temperature >= 63 %>
-          <h1><%= ["Maybe", "light jacket, perhaps?", "maybe, just maybe..", "flip a coin", "only if you're a wimp", "nah, a little cold never hurt anybody"].sample %></h1>
+          <h1><%= ["Maybe", "light jacket, perhaps?", "maybe, just maybe..", "flip a coin", "only if you're a wimp", "nah, a little cold never hurt anybody", "you wont die without one", "t-shirt will do" ].sample %></h1>
         <% else %>
-          <h1><%= ["YES", "you better...", "YES.", "not if you're trying to get sick", "not if you want nipple blades"].sample %></h1>
+          <h1><%= ["YES", "you better...", "YES.", "not if you're trying to get sick", "not if you want nipple blades", "put on a jacket and never take it off", "jacket please, don't say i didn't warn you", "definitely"].sample %></h1>
         <% end %>
       </div>
     </div>
