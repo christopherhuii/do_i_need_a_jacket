@@ -27,4 +27,15 @@ h1 {
 .jumbotron {
   background: transparent;
   padding: 0;
+  .error {
+    color: red;
+
+  }
+}
+
+a {
+  color: black;
+  &:hover {
+    text-decoration: none;
+  }
 }
