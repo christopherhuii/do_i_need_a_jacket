@@ -19,7 +19,8 @@ class WeatherLookup
       self.city = weather_hash.parsed_response['location']['city']
       self.state = weather_hash.parsed_response['location']['state']
     else
-      self.error = "No Cities Match Your Search Query"
+      p weather_hash.parsed_response
+      self.error = weather_hash.parsed_response['response']['error']['description']
     end
   end
 end
