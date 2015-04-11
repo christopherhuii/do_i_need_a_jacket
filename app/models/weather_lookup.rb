@@ -3,7 +3,7 @@ class WeatherLookup
 
   def initialize(zip)
     self.zip = zip
-    zip = 91765 if zip.blank?
+    zip = 0 if zip.blank?
     weather_hash = fetch_weather(zip)
     weather_values(weather_hash)
   end
