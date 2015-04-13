@@ -18,8 +18,8 @@ class WeatherLookup
       self.weather_condition = weather_hash.parsed_response['current_observation']['weather']
       self.city = weather_hash.parsed_response['location']['city']
       self.state = weather_hash.parsed_response['location']['state']
-    else
       p weather_hash.parsed_response
+    else
       self.error = weather_hash.parsed_response['response']['error']['description']
     end
   end
