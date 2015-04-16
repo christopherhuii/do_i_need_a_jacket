@@ -8,16 +8,18 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <div id="main-wrapper">
 
-<%= yield %>
+  <%= yield %>
 
-<footer>
-  <ul>
-    <%= link_to image_tag('facebook-1.png', size: '32x32'), 'https://facebook.com/christopherhui' %>
-    <%= link_to image_tag('twitter-1.png', size: '32x32'), 'https://twitter.com/ChristopherHui' %>
-    <%= link_to image_tag('linkedin-1.png', size: '32x32'), 'https://linkedin.com/in/christopherhuii' %>
-    <%= link_to image_tag('github-1.png', size: '32x32'), 'https://github.com/christopherhuii' %>
-  </ul>
-</footer>
+    <footer>
+      <ul>
+        <%= link_to image_tag('facebook-1.png', size: '32x32'), 'https://facebook.com/christopherhui' %>
+        <%= link_to image_tag('twitter-1.png', size: '32x32'), 'https://twitter.com/ChristopherHui' %>
+        <%= link_to image_tag('linkedin-1.png', size: '32x32'), 'https://linkedin.com/in/christopherhuii' %>
+        <%= link_to image_tag('github-1.png', size: '32x32'), 'https://github.com/christopherhuii' %>
+      </ul>
+    </footer>
+  </div>
 </body>
 </html>

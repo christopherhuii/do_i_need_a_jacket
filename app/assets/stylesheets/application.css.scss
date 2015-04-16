@@ -17,6 +17,17 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+html, body {
+  height: 99%;
+  margin: 0;
+  padding: 0;
+}
+
+#main-wrapper {
+  min-height: 99%;
+  position: relative;
+}
+
 .content {
   text-align: center;
 }
@@ -48,6 +59,7 @@ footer {
   text-align: center;
   ul {
     padding: 0;
+    margin-bottom: 0;
     img {
       margin: 0.5rem;
     }
