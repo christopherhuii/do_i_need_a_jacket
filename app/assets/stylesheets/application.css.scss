@@ -18,13 +18,13 @@
 @import "bootstrap";
 
 html, body {
-  height: 99%;
+  height: 100%;
   margin: 0;
   padding: 0;
 }
 
 #main-wrapper {
-  min-height: 99%;
+  min-height: 100%;
   position: relative;
 }
 
@@ -33,7 +33,7 @@ html, body {
 }
 
 h1 {
-  padding: 2rem;
+  padding: 2rem 0;
 }
 
 .jumbotron {
@@ -53,7 +53,7 @@ a {
 }
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   text-align: center;
