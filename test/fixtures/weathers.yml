@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  weather_phrase: MyText
+  condition: MyString
+
+two:
+  weather_phrase: MyText
+  condition: MyString
