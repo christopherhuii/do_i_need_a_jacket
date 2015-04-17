@@ -17,15 +17,33 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-html, body {
-  height: 100%;
+// body {
+//   height: 100%;
+//   margin: 0;
+//   padding: 0;
+// }
+
+// #main-wrapper {
+//   min-height: 100%;
+//   position: relative;
+// }
+
+* {
   margin: 0;
-  padding: 0;
 }
 
-#main-wrapper {
+html {
+  height: 97%
+}
+body {
+  height: 100%;
+}
+
+.wrapper {
   min-height: 100%;
-  position: relative;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -3em;
 }
 
 .content {
@@ -52,10 +70,12 @@ a {
   }
 }
 
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+// footer {
+.footer, .push {
+  height: 3em;
+  // position: fixed;
+  // bottom: 0;
+  // width: 100%;
   text-align: center;
   ul {
     padding: 0;

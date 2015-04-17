@@ -8582,61 +8582,69 @@ button.close {
     display: none !important;
   }
 }
-/* line 21, /Users/admin/Desktop/12_in_12_rails/do_i_need_a_jacket/app/assets/stylesheets/application.css.scss */
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-/* line 27, /Users/admin/Desktop/12_in_12_rails/do_i_need_a_jacket/app/assets/stylesheets/application.css.scss */
-#main-wrapper {
-  min-height: 100%;
-  position: relative;
-}
-
 /* line 32, /Users/admin/Desktop/12_in_12_rails/do_i_need_a_jacket/app/assets/stylesheets/application.css.scss */
+* {
+  margin: 0;
+}
+
+/* line 36, /Users/admin/Desktop/12_in_12_rails/do_i_need_a_jacket/app/assets/stylesheets/application.css.scss */
+html {
+  height: 97%;
+}
+
+/* line 39, /Users/admin/Desktop/12_in_12_rails/do_i_need_a_jacket/app/assets/stylesheets/application.css.scss */
+body {
+  height: 100%;
+}
+
+/* line 43, /Users/admin/Desktop/12_in_12_rails/do_i_need_a_jacket/app/assets/stylesheets/application.css.scss */
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -3em;
+}
+
+/* line 50, /Users/admin/Desktop/12_in_12_rails/do_i_need_a_jacket/app/assets/stylesheets/application.css.scss */
 .content {
   text-align: center;
 }
 
-/* line 36, /Users/admin/Desktop/12_in_12_rails/do_i_need_a_jacket/app/assets/stylesheets/application.css.scss */
+/* line 54, /Users/admin/Desktop/12_in_12_rails/do_i_need_a_jacket/app/assets/stylesheets/application.css.scss */
 h1 {
   padding: 2rem 0;
 }
 
-/* line 40, /Users/admin/Desktop/12_in_12_rails/do_i_need_a_jacket/app/assets/stylesheets/application.css.scss */
+/* line 58, /Users/admin/Desktop/12_in_12_rails/do_i_need_a_jacket/app/assets/stylesheets/application.css.scss */
 .jumbotron {
   background: transparent;
   padding: 0;
 }
-/* line 43, /Users/admin/Desktop/12_in_12_rails/do_i_need_a_jacket/app/assets/stylesheets/application.css.scss */
+/* line 61, /Users/admin/Desktop/12_in_12_rails/do_i_need_a_jacket/app/assets/stylesheets/application.css.scss */
 .jumbotron .error {
   color: red;
 }
 
-/* line 49, /Users/admin/Desktop/12_in_12_rails/do_i_need_a_jacket/app/assets/stylesheets/application.css.scss */
+/* line 67, /Users/admin/Desktop/12_in_12_rails/do_i_need_a_jacket/app/assets/stylesheets/application.css.scss */
 a {
   color: black;
 }
-/* line 51, /Users/admin/Desktop/12_in_12_rails/do_i_need_a_jacket/app/assets/stylesheets/application.css.scss */
+/* line 69, /Users/admin/Desktop/12_in_12_rails/do_i_need_a_jacket/app/assets/stylesheets/application.css.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 56, /Users/admin/Desktop/12_in_12_rails/do_i_need_a_jacket/app/assets/stylesheets/application.css.scss */
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+/* line 75, /Users/admin/Desktop/12_in_12_rails/do_i_need_a_jacket/app/assets/stylesheets/application.css.scss */
+.footer, .push {
+  height: 3em;
   text-align: center;
 }
-/* line 61, /Users/admin/Desktop/12_in_12_rails/do_i_need_a_jacket/app/assets/stylesheets/application.css.scss */
-footer ul {
+/* line 81, /Users/admin/Desktop/12_in_12_rails/do_i_need_a_jacket/app/assets/stylesheets/application.css.scss */
+.footer ul, .push ul {
   padding: 0;
   margin-bottom: 0;
 }
-/* line 64, /Users/admin/Desktop/12_in_12_rails/do_i_need_a_jacket/app/assets/stylesheets/application.css.scss */
-footer ul img {
+/* line 84, /Users/admin/Desktop/12_in_12_rails/do_i_need_a_jacket/app/assets/stylesheets/application.css.scss */
+.footer ul img, .push ul img {
   margin: 0.5rem;
 }
